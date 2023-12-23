@@ -4,8 +4,84 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "4b322fb2690c872958bf034e33ee80f5",
     "packages": [
+        {
+            "name": "azuracast/php-api-client",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AzuraCast/php-api-client.git",
+                "reference": "2e0c3aa814b65afdee68bbf79a28f6967aa187e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AzuraCast/php-api-client/zipball/2e0c3aa814b65afdee68bbf79a28f6967aa187e8",
+                "reference": "2e0c3aa814b65afdee68bbf79a28f6967aa187e8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^7.0",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.8",
+                "overtrue/phplint": "^2.2",
+                "phpstan/phpstan": "^0.12.54",
+                "phpstan/phpstan-strict-rules": "^0.12.5",
+                "phpunit/phpunit": "^9.4",
+                "roave/security-advisories": "dev-master",
+                "vlucas/phpdotenv": "^5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AzuraCast\\Api\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vaalyn",
+                    "email": "vaalyndev@gmail.com"
+                },
+                {
+                    "name": "Buster 'Silver Eagle' Neece",
+                    "email": "buster@busterneece.com"
+                }
+            ],
+            "description": "An API client library for the AzuraCast API",
+            "homepage": "https://github.com/AzuraCast/php-api-client",
+            "keywords": [
+                "api",
+                "azuracast",
+                "client"
+            ],
+            "support": {
+                "issues": "https://github.com/AzuraCast/php-api-client/issues",
+                "source": "https://github.com/AzuraCast/php-api-client/tree/2.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/AzuraCast",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/azuracast",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/AzuraCast",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-03-13T17:27:34+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",

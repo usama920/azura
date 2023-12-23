@@ -1,0 +1,50 @@
+{
+    "name": "azuracast/php-api-client",
+    "description": "An API client library for the AzuraCast API",
+    "keywords": ["azuracast", "api", "client"],
+    "homepage": "https://github.com/AzuraCast/php-api-client",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Vaalyn",
+            "email": "vaalyndev@gmail.com"
+        },
+        {
+            "name": "Buster 'Silver Eagle' Neece",
+            "email": "buster@busterneece.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-json": "*",
+        "ext-gd": "*",
+
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.8",
+        "overtrue/phplint": "^2.2",
+        "phpstan/phpstan": "^0.12.54",
+        "phpstan/phpstan-strict-rules": "^0.12.5",
+        "phpunit/phpunit": "^9.4",
+        "roave/security-advisories": "dev-master",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AzuraCast\\Api\\": "src"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@composer install",
+            "@phplint",
+            "@phpstan",
+            "@phpunit"
+        ],
+        "phplint": "phplint",
+        "phpstan": "phpstan analyze",
+        "phpunit": "phpunit tests/AzuraCastApiClient/AzuraCastApiClientTest.php"
+    }
+}

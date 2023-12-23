@@ -167,24 +167,8 @@
                                     <span class="side-menu__label">Dashboard</span><i class="angle fe fe-chevron-right"></i></a>
                                 <ul class="slide-menu">
                                     <li class="side-menu__label1">
-                                        <a href="javascript:void(0)">Dashboard</a>
+                                        <a href="{{url('/dashboard')}}">Dashboard</a>
                                     </li>
-                                    <li><a class="slide-item" href="index.html">General</a></li>
-                                    <li>
-                                        <a class="slide-item" href="index-1.html">Ecommerce</a>
-                                    </li>
-                                    <li>
-                                        <a class="slide-item" href="index-2.html">Projects</a>
-                                    </li>
-                                    <li><a class="slide-item" href="index-3.html">HRM</a></li>
-                                    <li><a class="slide-item" href="index-4.html">CRM</a></li>
-                                    <li>
-                                        <a class="slide-item" href="index-5.html">Analytics</a>
-                                    </li>
-                                    <li>
-                                        <a class="slide-item" href="index-6.html">Crypto</a>
-                                    </li>
-                                    <li><a class="slide-item" href="index-7.html">Sales</a></li>
                                 </ul>
                             </li>
                         </ul>
