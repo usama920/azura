@@ -11,7 +11,7 @@
     <meta name="Keywords" content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 5 admin template,bootstrap 5 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 5,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 5,template admin bootstrap 5" />
 
     <!-- Title -->
-    <title> Zem - Premium dashboard ui bootstrap rwd admin html5 template </title>
+    <title> Login - Radio Casthost </title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{asset('assets/img/brand/favicon.ico')}}" type="image/x-icon" />
@@ -38,7 +38,7 @@
 
     <!-- Loader -->
     <div id="global-loader">
-        <img src="../assets/img/loader.svg" class="loader-img" alt="Loader">
+        <img src="{{asset('assets/img/loader.svg')}}" class="loader-img" alt="Loader">
     </div>
     <!-- /Loader -->
 
@@ -72,8 +72,8 @@
                                     <div class="wd-100p">
                                         <div class="d-flex">
                                             <a href="index.html">
-                                                <img src="../assets/img/brand/favicon-white.png" class="sign-favicon ht-40 logo-dark" alt="logo">
-                                                <img src="../assets/img/brand/favicon-white-1.png" class="sign-favicon ht-40 logo-light-theme" alt="logo">
+                                                <img src="{{asset('assets/img/brand/favicon-white.png')}}" class="sign-favicon ht-40 logo-dark" alt="logo">
+                                                <img src="{{asset('assets/img/brand/favicon-white-1.png')}}" class="sign-favicon ht-40 logo-light-theme" alt="logo">
                                             </a>
                                         </div>
                                         <div class="mt-3">
@@ -117,22 +117,19 @@
 
 
     <!-- JQuery min js -->
-    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <script src="{{asset('assets/plugins/jquery/jquery.min.js')}}"></script>
 
     <!-- Bootstrap js -->
-    <script src="../assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- generate-otp js -->
-    <script src="../assets/js/generate-otp.js"></script>
+    <script src="{{asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!--Internal  Perfect-scrollbar js -->
-    <script src="../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="{{asset('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
 
     <!-- authentication js -->
-    <script src="../assets/js/authentication.js"></script>
+    <script src="{{asset('assets/js/authentication.js')}}"></script>
 
     <!-- custom js -->
-    <script src="../assets/js/custom.js"></script>
+    <script src="{{asset('assets/js/custom.js')}}"></script>
 
 </body>
 

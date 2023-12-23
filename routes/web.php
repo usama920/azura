@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/login', [LoginController::class, 'LoginPage']);
+Route::post('/tryLogin', [LoginController::class, 'TryLogin']);
+Route::post('/logout', [LoginController::class, 'Logout']);
