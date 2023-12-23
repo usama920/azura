@@ -11,7 +11,7 @@
     <meta name="Keywords" content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 5 admin template,bootstrap 5 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 5,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 5,template admin bootstrap 5" />
 
     <!-- Title -->
-    <title> Login - Radio Casthost </title>
+    <title> Login - Casthost Radio Dashboard </title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{asset('assets/img/brand/favicon.ico')}}" type="image/x-icon" />
