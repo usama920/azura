@@ -82,18 +82,18 @@
                                             <div class="panel tabs-style7 scaleX mt-2">
                                                 <div class="panel-head">
                                                     <ul class="nav nav-tabs d-block d-sm-flex">
-                                                        <li class="nav-item"><a class="nav-link tx-14 font-weight-semibold text-sm-center text-start active" data-bs-toggle="tab" href="#signinTab1">Email</a></li>
+                                                        <li class="nav-item"><a class="nav-link tx-14 font-weight-semibold text-sm-center text-start active" data-bs-toggle="tab" href="#signinTab1">Username</a></li>
                                                     </ul>
                                                 </div>
                                                 <div class="panel-body p-0">
                                                     <div class="tab-content mt-3">
                                                         <div class="tab-pane active" id="signinTab1">
-                                                            <form action="#">
+                                                            <form action="{{url('/tryLogin')}}">
                                                                 <div class="form-group">
-                                                                    <input class="form-control" placeholder="Email" type="email">
+                                                                    <input class="form-control" placeholder="Username" type="text" required>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input class="form-control" placeholder="Password" type="password">
+                                                                    <input class="form-control" placeholder="Password" type="password" required>
                                                                 </div>
                                                                 <div class="d-flex align-items-center justify-content-between">
 
