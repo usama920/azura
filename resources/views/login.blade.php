@@ -97,7 +97,7 @@
                                                                 </div>
                                                                 <div class="d-flex align-items-center justify-content-between">
 
-                                                                    <a href="index.html" class="btn btn-primary">Log In</a>
+                                                                    <input type="submit" class="btn btn-primary" value="Log In" />
                                                                 </div>
                                                             </form>
                                                         </div>
