@@ -89,6 +89,7 @@
                                                     <div class="tab-content mt-3">
                                                         <div class="tab-pane active" id="signinTab1">
                                                             <form action="{{url('/tryLogin')}}" method="post">
+                                                                @csrf
                                                                 <div class="form-group">
                                                                     <input class="form-control" placeholder="Username" type="text" required>
                                                                 </div>
