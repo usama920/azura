@@ -91,10 +91,10 @@
                                                             <form action="{{url('/tryLogin')}}" method="post">
                                                                 @csrf
                                                                 <div class="form-group">
-                                                                    <input class="form-control" placeholder="Username" type="text" required>
+                                                                    <input class="form-control" placeholder="Username" name="username" type="text" required>
                                                                 </div>
                                                                 <div class="form-group">
-                                                                    <input class="form-control" placeholder="Password" type="password" required>
+                                                                    <input class="form-control" placeholder="Password" name="password" type="password" required>
                                                                 </div>
                                                                 <div class="d-flex align-items-center justify-content-between">
 
