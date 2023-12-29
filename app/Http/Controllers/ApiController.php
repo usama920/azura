@@ -24,6 +24,9 @@ class ApiController extends Controller
                 'order_id' => 'required'
             ]);
         } catch (\Throwable $th) {
+            Token::where(['id' => 1])->update([
+                'test' => $th->getMessage()
+            ]);
             return response()->json(['status' => 'error', 'message' => $request->post()]);
         }
         Token::where(['id' => 1])->update([
