@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('/v1/create/radiohost', [ApiController::class, 'CreateRadioHost']);
+Route::post('/v1/suspend/radiohost', [ApiController::class, 'SuspendRadioHost']);
+Route::post('/v1/unsuspend/radiohost', [ApiController::class, 'UnsuspendRadioHost']);
+Route::post('/v1/delete/radiohost', [ApiController::class, 'DeleteRadioHost']);
